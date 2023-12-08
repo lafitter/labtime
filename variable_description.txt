@@ -1,0 +1,28 @@
+Participant: participant number
+
+Exposure: exposure group.
+m = mirror (test condition: post-adaptation mirror exposure)
+c = control (control condition: pre-adaptation mirror exposure)
+
+TestOrder: counterbalanced testing order (ABAB // BABA)
+other-self = first standard stimulus is Emma Watson, second is the participant
+self-other = first standard stimulus is the participant, second is Emma Watson
+
+pre_PSE_self = PSE value in the baseline in condition Self
+
+pre_PSE_other = PSE value in the baseline in condition Other
+
+post_PSE_self = PSE value in the post-test phase in condition Self
+
+post_PSE_other = PSE value in the post-test phase in condition Other
+
+Age = participants' age (years)
+
+BMI = participants' BMI (rounded to 1 digit) computed from self-declared weight and height. These were not stored to ensure participants were not identifiable.
+
+shift_self = PSE shift (post-test - baseline) in condition Self
+
+shift_other = PSE shift (post-test - baseline) in condition Other
+
+baseline_overestimation = PSE value in the baseline in condition Self - participants' self-declared BMI
+(note that this could reflect a bias in the way the stimuli were created, not necessarily actual body shape overestimation)
